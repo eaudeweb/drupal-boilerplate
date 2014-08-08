@@ -254,16 +254,22 @@ if (file_exists($json_path)) {
 
 $options['init-modules'] = array(
   'ctools',
+
   'entity',
   'locale',
   'entity_translation',
   'i18n',
+
+  'date',
+  'strongarm',
   'variable',
+  'taxonomy_access_fix',
+
   'views',
   'views_ui',
   'views_bulk_operations',
-  'taxonomy_access_fix',
-  'date',
+
+
   'migrate',
   'features',
   'entityreference',
@@ -272,14 +278,17 @@ $options['init-modules'] = array(
   'wysiwyg',
   'pathauto',
   'uuid',
+
   'search_api',
   'facetapi',
   'search_api_facetapi',
   'apachesolr',
   'apachesolr_search',
   'search_api_solr',
-  'strongarm',
+
   'imce_wysiwyg',
+
+  'edw_utils',
 );
 
 
