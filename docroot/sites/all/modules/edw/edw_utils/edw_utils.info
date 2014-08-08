@@ -1,0 +1,6 @@
+name = EDW Utils
+description = Provides common utilities to our projects
+core = 7.x
+package = EDW
+
+files[] = edw_utils.api.inc
