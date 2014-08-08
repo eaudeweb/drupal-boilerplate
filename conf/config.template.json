@@ -14,7 +14,6 @@
         "email": "account@example.com"
     },
     "uri": "http://osha.localhost",
-    "site_mail": "account@example.com",
     "solr_server": {
         "name": "Apache Solr server",
         "enabled": 1,
@@ -36,6 +35,7 @@
         "apachesolr_soft_commit": 1
     },
     "variables": {
-        "osha_data_dir": "/var/local/osha/data"
+        "site_name": "My Drupal Site",
+        "site_mail": "account@example.com"
     }
 }
