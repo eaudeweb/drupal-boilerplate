@@ -288,9 +288,11 @@ $options['init-modules'] = array(
   'uuid',
 
   'search_api',
-  'facetapi',
-  'search_api_facetapi',
-  'search_api_solr',
+//  'facetapi',
+//  'search_api_facetapi',
+//  'search_api_solr',
+//  'search_api_et_solr',
+//  'search_api_attachments',
 
 //  'imce_wysiwyg',
 
