@@ -13,7 +13,7 @@
         "password": "admin",
         "email": "account@example.com"
     },
-    "uri": "http://osha.localhost",
+    "uri": "http://mysite.localhost",
     "solr_server": {
         "name": "Apache Solr server",
         "enabled": 1,
@@ -21,7 +21,7 @@
         "scheme": "http",
         "host": "127.0.0.1",
         "port": 8080,
-        "path": "/solr/osha",
+        "path": "/solr/mycore",
         "http_user": "",
         "http_password": "",
         "excerpt": 1,
@@ -36,6 +36,8 @@
     },
     "variables": {
         "site_name": "My Drupal Site",
-        "site_mail": "account@example.com"
+        "site_mail": "account@example.com",
+        "file_temporary_path": "/tmp",
+        "file_private_path" : "/var/local/mysite/private_files"
     }
 }

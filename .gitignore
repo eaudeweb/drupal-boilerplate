@@ -51,3 +51,6 @@ docroot/sites/*/private
 ehthumbs.db
 Icon\?
 Thumbs.db
+
+# IDE files
+.idea/
